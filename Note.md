@@ -70,8 +70,8 @@ The depth of a "deep feature" is equal to the number of **stacked primitives**.
 
 -1 --> unspecified value (1,-1)即为限定为一行,然后不管多少列.只要给我reshape成一行就ok了.
 
-Ordinary least squares Linear Regression. 
-
+#### Ordinary least squares Linear Regression. 
+[]!(sphx_glr_plot_ols_001.png)
 
 
 
