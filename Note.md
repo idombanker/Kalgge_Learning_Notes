@@ -52,5 +52,21 @@ The depth of a "deep feature" is equal to the number of **stacked primitives**.
 就是堆叠在一起，同我的wavelet深度堆积
 ### https://blog.csdn.net/Mlooker/article/details/80318601　
 
+### 一些高分者写的kernel
+#### Simple Blend ( Blend: 融合）
+分别用不同的模型生成预测结果，保存在不同的文件里面，然后再依次读入，然后设计权重相加．
+
+### 接下来准备用一个LSTM - Autoencoder去提取特征．
+
+### kernel 代码学习．
+#### 
+
+### 搜狗字母间隔异常问题解决方法
+搜狗输入法的 全半角切换 选项 点一下即可.
+
+
+
+
+
 
 
