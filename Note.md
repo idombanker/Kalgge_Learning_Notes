@@ -70,10 +70,21 @@ The depth of a "deep feature" is equal to the number of **stacked primitives**.
 
 -1 --> unspecified value (1,-1)即为限定为一行,然后不管多少列.只要给我reshape成一行就ok了.
 
+通配符: wildcard
+
 #### Ordinary least squares Linear Regression. 
-[]!(sphx_glr_plot_ols_001.png)
+![](sphx_glr_plot_ols_001.png)
+图片插入,先保存图片,然后书写: \!\[](图片名) 
+线性回归是指直线回归,非直线(曲线)不是线性哟~
 
 
+#### STA/LTA 算法(长短视窗处理地震信号算法)
+*这个我相信非常重要*
+震相自动识别是地震速报和地震预警中的重要工作之一.
+针对震相自动识别中最常使用的方法STA/LTA算法.
+能反映地震信号振幅和频率变化特征的特征函数:  
+$$CF(i)=Y(i)2-Y(i-1)Y(i+1) $$  
+(其中CF(i)为i时刻的特征函数,Y(i)为i时刻的地震信号振幅)
 
 
 
