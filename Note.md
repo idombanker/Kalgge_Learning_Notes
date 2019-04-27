@@ -52,6 +52,9 @@ The depth of a "deep feature" is equal to the number of **stacked primitives**.
 就是堆叠在一起，同我的wavelet深度堆积
 ### https://blog.csdn.net/Mlooker/article/details/80318601　
 
+### 搜狗字母间隔异常问题解决方法
+搜狗输入法的 全半角切换 选项 点一下即可.
+
 ### 一些高分者写的kernel
 #### Simple Blend ( Blend: 融合）
 分别用不同的模型生成预测结果，保存在不同的文件里面，然后再依次读入，然后设计权重相加．
@@ -59,10 +62,18 @@ The depth of a "deep feature" is equal to the number of **stacked primitives**.
 ### 接下来准备用一个LSTM - Autoencoder去提取特征．
 
 ### kernel 代码学习．
-#### 
 
-### 搜狗字母间隔异常问题解决方法
-搜狗输入法的 全半角切换 选项 点一下即可.
+#### reshape(-1,1)
+可以用于numpy库里的ndarray和array结构以及pandas库里面的DataFrame和Series结构。
+
+在实际使用中，特别是在运用函数的时候，系统经常会提示是否需要对数据使用reshape(1,-1)或者reshape(-1,1)进行转换.
+
+-1 --> unspecified value (1,-1)即为限定为一行,然后不管多少列.只要给我reshape成一行就ok了.
+
+Ordinary least squares Linear Regression. 
+
+
+
 
 
 
