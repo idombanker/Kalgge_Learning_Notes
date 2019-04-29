@@ -148,5 +148,6 @@ One-dimensional ndarray with axis labels (including time series).
 所以1.46 是时间上的平均误差,1点多秒.
 
 
-
+### 重大发现
+sta_lta 过滤为高频部分的时候,拟合更好.
 
